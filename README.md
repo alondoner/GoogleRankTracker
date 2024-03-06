@@ -8,31 +8,29 @@ The SPA was implemented using the latest version 18.2.0 of React with Vite 5.1.4
 The backend API was developed with C# 12 and uses an Entity Framework Core In-memory database to store data.
 
 ##  How to Install and Run
-First of all, make sure .NET 8 and Node.js are installed on your machine.
+1) Make sure .NET 8 and Node.js are installed on your machine
 
-You can open and run the solution directly using Visual Studio or follow the steps below:
+2) Start Visual Studio environment
 
-### SPA
-1- Start Visual Studio or Visual Code environment
+3) Clone the repository https://github.com/alondoner/GoogleRankTracker.git using Visual Studio
 
-2- Launch VS Developer PowerShell
-
-3- Using cd command go to "googleranktracker.client" folder
-
-4- Execute "npm install" command
-
-5- Execute "npm run dev" command
-
-### Web API
-1- Start Visual Studio or Visual Code environment
-
-2- Launch VS Developer PowerShell
-
-3- Using cd command, go to "GoogleRankTracker.Server" folder
-
-4- Execute "dotnet run" command
+4) Start Without Debugging (Ctrl + F5)
 
 ##  How to Use
-The SPA  is published on https://localhost:5173.
+The SPA is published on https://localhost:5173.
 
 To test the Web API, Swagger UI is available on https://localhost:7013/swagger/index.html.
+
+## Screenshots
+
+Search
+![image](https://i.ibb.co/pzLFqF0/2.png)
+
+History
+![image](https://i.ibb.co/KskZ46B/4.png)
+
+Trends
+![image](https://i.ibb.co/hmp9rj2/5.png)
+
+Swagger UI
+![image](https://i.ibb.co/Nr1RL0B/8.png)
