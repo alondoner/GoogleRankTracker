@@ -1,0 +1,54 @@
+﻿form {
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    background-color: #FFA500;
+    width: 100%;
+    border-radius: 6px;
+    border-width: 0;
+}
+
+input {
+    display: flex;
+    width: 80%;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    margin: 0.9vw 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+    color: #157084;
+}
+
+button {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #1B91AB;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: #1B91AB 0 0 0 1px inset, #1B91AB 0 2px 5px 0, #1B91AB 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #FFA500;
+    cursor: pointer;    
+    font-size: 20px;
+    font-weight: bold;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s, box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #157084;
+}
